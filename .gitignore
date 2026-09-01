@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.ipynb_checkpoints/
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Data
+data/
+*.zip
+*.tar
+*.tar.gz
+*.rar
+
+# Model checkpoints and large outputs
+outputs/
+logs/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# OS/editor files
+.DS_Store
+.vscode/
+*.swp
+
+# Temporary files
+tmp/
+temp/
+
+# Generated figures
+figures/
+
+# Local backup / discarded scripts
+mid_ratio
+scripts/*backup*.py
+scripts/*wrong_import*.py
