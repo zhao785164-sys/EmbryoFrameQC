@@ -1,0 +1,40 @@
+{
+  "seed": 42,
+  "epochs": 10,
+  "batch_size": 32,
+  "learning_rate": 0.0001,
+  "weight_decay": 0.0001,
+  "optimizer": "AdamW",
+  "augmentation": "none",
+  "loss": "train-count-weighted cross entropy",
+  "class_weights_keep_delete": [
+    0.6027105618444283,
+    2.9340242669362993
+  ],
+  "train_embryos": 24,
+  "val_embryos": 6,
+  "train_frames": 11607,
+  "val_frames": 2454,
+  "model_selection": "highest val AP, then lowest unweighted val CE",
+  "metric_threshold": 0.5,
+  "threshold_status": "diagnostic only; deployment threshold not selected",
+  "physical_gpu": 0,
+  "independent_test_used": false,
+  "initialization": "fresh ImageNet weights; not smoke checkpoint",
+  "weights_path": "/home/gpuserver2/QC_Rebuild_v1/weights/resnet18-f37072fd.pth",
+  "weights_sha256": "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec",
+  "index_path": "/home/gpuserver2/QC_Rebuild_v1/data/qc30_decode_audit_v1_20261023_162958_452370/qc30_frame_index_audited.csv",
+  "index_sha256": "86b2a42a2065f9c4ab0ad3292f8f34f6958c4cea0bb424a0b60bd2c72c9f9641",
+  "decode_loader_sha256": "d1e82bc8fa02afd8a09d76ca8fe53835e0eefe114d322a16adb2d2b27a9d643b",
+  "preprocess_sha256": "7b30626856059d918f43aee2bdfed653dd7c02c34ab36a708c2d3d23793e609f",
+  "preprocessing": "grayscale; per-frame P1-P99 stretch; flat percentiles retain original intensities; full-view aspect-preserving resize and black padding to 224; repeat RGB; ImageNet mean/std",
+  "preprocessing_status": "fixed for this baseline",
+  "validation_limitation": "88 DELETE frames from AM365-7 blur interval only",
+  "versions": {
+    "python": "3.8.10",
+    "torch": "2.4.1+cu121",
+    "torchvision": "0.19.1+cu121",
+    "pillow": "10.4.0",
+    "numpy": "1.24.4"
+  }
+}

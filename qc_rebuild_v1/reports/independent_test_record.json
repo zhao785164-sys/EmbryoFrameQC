@@ -1,0 +1,21 @@
+{
+  "review_confirmation": "User confirmed full RAW/P1-P99 review; labels and boundaries unchanged before test scoring.",
+  "supplement_review_directory": "/home/zhl/projects/QC_Rebuild_v1/montages/qc_test_p1p99_blind_review_20261105_101110_102618",
+  "model_sha256": "54b65cbb9d626051b2b9c6f1827eef215ba4f5b2da48183128ec7f3aafad1e30",
+  "checkpoint_epoch": 6,
+  "threshold": 0.001,
+  "decision_rule": "softmax(logits, dim=1)[:,1] >= 0.001 => DELETE",
+  "device": "cpu",
+  "torch_version": "2.4.1+cu121",
+  "torchvision_version": "0.19.1+cu121",
+  "input_hashes": {
+    "test_manifest.csv": "ac46ae9a953330c7308e9dc2f3ec0925938eca05a8a89de5e979751aa2fec11e",
+    "manual_boundaries.csv": "350856550e30e6dd0a969b6aaf53e83ec1b6b0e2d9d49e469f703b0e3fd41a8a",
+    "qc_image_io_v1.py": "d1e82bc8fa02afd8a09d76ca8fe53835e0eefe114d322a16adb2d2b27a9d643b",
+    "supplement_review_index.csv": "0877d9815fac5c4302d36ab7b3465bfbca5814af68b32789db9325d516bf0cd5",
+    "qc_preprocess_v1.py": "7b30626856059d918f43aee2bdfed653dd7c02c34ab36a708c2d3d23793e609f",
+    "test_selection.csv": "c27cb0657d810237d893fe6f48473eb3c095018b7693fd39883f1f89d155cac0",
+    "manual_segments.csv": "bb4d3e9de58eee27a6066dc6cbaaefa3aac32216622327cb4ed01702342c0a51",
+    "test_protocol.json": "c651e679b645c8de5517fff1bb6f88bb931f0eeabc3afb61140eaac3d754abbe"
+  }
+}

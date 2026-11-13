@@ -1,0 +1,12 @@
+{
+  "status": "INFERENCE_COMPLETE",
+  "embryos": 704,
+  "total": 342363,
+  "KEEP": 296005,
+  "DELETE": 46358,
+  "REVIEW": 0,
+  "threshold": 0.001,
+  "model_sha256": "54b65cbb9d626051b2b9c6f1827eef215ba4f5b2da48183128ec7f3aafad1e30",
+  "manifest_sha256": "92548fbaf23a0b54e4081bdbe487a2d29b7fed4535180a43886c7494f8d5b85a",
+  "scope": "F0 inference only; source images preserved"
+}

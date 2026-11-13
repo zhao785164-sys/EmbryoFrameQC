@@ -1,0 +1,31 @@
+{
+  "purpose": "Score-visible development review at threshold 0.013",
+  "threshold": 0.013,
+  "seed": 13013,
+  "source_predictions": "/home/zhl/projects/QC_Rebuild_v1/runs/qc_f0_batch_VuRe5ghM/candidate_t0p02_20261106_155802_286025/fresh_audit_20261106_160159_483570/confirmed_20261106_161427_279211/candidate_predictions_reviewed.csv",
+  "previous_review_sha256": "2622522c05c3f503615a965c5a6dbb0a23983d9c5e587d4b4626d5045013454d",
+  "previously_reviewed_frames_excluded": 923,
+  "excluded_QC_embryos": 45,
+  "allowed_upstream_splits": [
+    "train",
+    "val",
+    "validation"
+  ],
+  "manual_overrides_applied_to_audit_predictions": false,
+  "whole_library_threshold_only_counts": {
+    "KEEP": 299205,
+    "DELETE": 43158
+  },
+  "eligible_pool_counts": {
+    "KEEP": 241610,
+    "DELETE": 35185
+  },
+  "unique_samples": 200,
+  "category_memberships": {
+    "near_threshold_KEEP": 20,
+    "random_KEEP": 80,
+    "random_DELETE": 80,
+    "near_threshold_DELETE": 20
+  },
+  "historical_files_unchanged": true
+}

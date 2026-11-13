@@ -1,0 +1,35 @@
+{
+  "version": "qc_seed42_independent_test_v1",
+  "purpose": "independent test evaluation; not whole-library cleaning",
+  "source_run": "/home/gpuserver2/QC_Rebuild_v1/runs/qc_resnet18_formal_v1_seed42_20261023_164559",
+  "checkpoint_epoch": 6,
+  "model_sha256": "54b65cbb9d626051b2b9c6f1827eef215ba4f5b2da48183128ec7f3aafad1e30",
+  "score": "softmax(logits,dim=1)[:,1]",
+  "label_mapping": {
+    "0": "KEEP",
+    "1": "DELETE"
+  },
+  "decision_rule": "score >= 0.001 => DELETE",
+  "test_threshold": 0.001,
+  "threshold_source": "development validation data only",
+  "test_embryos": [
+    "PMDPI029-1-1",
+    "BE340-9",
+    "DA684-4",
+    "EH315-3",
+    "BS294-7",
+    "SM307-1-12",
+    "LS123-3",
+    "BJ497-7",
+    "BI224-2",
+    "BM984-2",
+    "DV305-3",
+    "AS1015-2",
+    "MC373-5",
+    "TN359-10",
+    "CAV074-3"
+  ],
+  "annotation_policy": "Assess technical usability with raw and prescribed normalized views; do not infer biological viability; decode errors are separate; no model scores shown during annotation.",
+  "validation_limitation": "88 DELETE frames from one blur embryo",
+  "deployment_approved": false
+}

@@ -1,0 +1,13 @@
+{
+  "total": 6940,
+  "scored": 6940,
+  "unscored": 0,
+  "true_keep_retained": 6101,
+  "true_keep_deleted": 0,
+  "true_delete_missed": 0,
+  "true_delete_detected": 839,
+  "threshold": 0.001,
+  "status": "TEST_COMPLETE",
+  "delete_recall_among_scored": 1.0,
+  "keep_false_deletion_rate_among_scored": 0.0
+}

@@ -1,0 +1,21 @@
+{
+  "purpose": "Development estimates, not independent test results",
+  "source_predictions": "/home/zhl/projects/QC_Rebuild_v1/runs/qc_f0_batch_VuRe5ghM/candidate_t0p02_20261106_155802_286025/fresh_audit_20261106_160159_483570/confirmed_20261106_161427_279211/candidate_predictions_reviewed.csv",
+  "original_sampling_frame_counts": {
+    "KEEP": 241683,
+    "DELETE": 35312
+  },
+  "random_sample_counts": {
+    "DELETE": 60,
+    "KEEP": 60
+  },
+  "weights": {
+    "DELETE": 588.5333333333333,
+    "KEEP": 4028.05
+  },
+  "near_threshold_samples_excluded_from_estimation": true,
+  "extrapolation_assumption": "Within each new predicted class, error proportions in the audited sampling frame are assumed transferable to remaining F0.",
+  "sampling_frame_limit": "Train/validation origins only; excludes original 45 QC embryos and frames reviewed before this audit.",
+  "zero_estimate_does_not_guarantee_zero_error": true,
+  "original_files_unchanged": true
+}

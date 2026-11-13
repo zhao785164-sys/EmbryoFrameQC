@@ -1,0 +1,2 @@
+embryo_id,upstream_split,run,image_path
+EXAMPLE_EMBRYO,train,1,EXAMPLE_EMBRYO/example_RUN1.jpeg
